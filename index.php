@@ -95,6 +95,5 @@ include "configs/funciones.php";
     }
 </script>
 
-
 </body>
 </html>
