@@ -1,0 +1,98 @@
+*{
+    font-family: arial;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+
+.header{
+    background: #111;
+    color:#fff;
+    padding:30px;
+    text-align: center;
+    font-size:30px;
+}
+
+.menu{
+    padding:10px;
+    background:#111;
+}
+
+.menu a{
+    text-decoration: none;
+    color:#fff;
+    background: #111;
+    padding:10px;
+}
+
+.menu a:hover{
+    background: #000;
+}
+
+.cuerpo{
+    background: #eaeaea;
+    padding:30px;
+    min-height: 440px; 
+}
+
+.producto{
+    border: 1px solid black;
+    border-radius: 3%;
+    display:inline-block;
+    width: 25%;
+    padding:10px;
+    background: white;
+    color:#333;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+}
+
+.img_producto{
+    margin-left: 50px;
+    width:250px;
+    height: 250px;
+}
+
+.name_producto{
+    padding:10px;
+    color:#fff;
+    background: rgb(95, 96, 102);
+    text-align: center;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.precio::before{
+    content: '$ ';
+}
+
+.precio{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.boton_agregar{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.form-control{
+    display: inline-block;
+}
+
+.form-group{
+    display: inline-block;
+}
+
+.form-input{
+    height: 30px;
+    width: 400px;
+}
+
+.form-select{
+    height: 35px;
+    width: 200px;
+}
